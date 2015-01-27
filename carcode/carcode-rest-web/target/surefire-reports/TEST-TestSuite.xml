@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.207" errors="0" skipped="0" tests="0" name="TestSuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\bin"/>
+    <property name="java.vm.version" value="23.25-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\CarCode\carcode\carcode-rest-web"/>
+    <property name="java.runtime.version" value="1.7.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\workspace\CarCode\carcode\carcode-rest-web"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\YULIYA~1\AppData\Local\Temp\surefirebooter2252231994197689476.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\YULIYA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\ActiveState Komodo IDE 8\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_25\bin;D:\opt\P4;D:\opt\apache-maven-3.0.5\bin;D:\opt\jruby\jruby-1.7.15\bin;C:\Program Files (x86)\Git\cmd;C:\Ruby193\bin;."/>
+    <property name="surefire.test.class.path" value="D:\workspace\CarCode\carcode\carcode-rest-web\target\test-classes;D:\workspace\CarCode\carcode\carcode-rest-web\target\classes;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-api\0.0.1-SNAPSHOT\carcode-api-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-postgres\0.0.1-SNAPSHOT\carcode-postgres-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\mybatis\mybatis\3.1.1\mybatis-3.1.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\mybatis\mybatis-spring\1.2.0\mybatis-spring-1.2.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-service\0.0.1-SNAPSHOT\carcode-service-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-rest\0.0.1-SNAPSHOT\carcode-rest-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\sun\jersey\jersey-server\1.0\jersey-server-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\sun\jersey\jersey-core\1.0\jersey-core-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\javax\ws\rs\jsr311-api\1.0\jsr311-api-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-web\3.1.2.RELEASE\spring-web-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-beans\3.1.2.RELEASE\spring-beans-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-context\3.1.2.RELEASE\spring-context-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-aop\3.1.2.RELEASE\spring-aop-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-expression\3.1.2.RELEASE\spring-expression-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-asm\3.1.2.RELEASE\spring-asm-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-core\3.1.2.RELEASE\spring-core-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\sun\jersey\jersey-spring\1.0\jersey-spring-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-webmvc\4.1.4.RELEASE\spring-webmvc-4.1.4.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\testng\testng\6.8.5\testng-6.8.5.jar;C:\Users\Yuliya_Maskvina\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="tangosol.coherence.override" value="/test-jetty-tangosol-coherence-override.xml"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Yuliya_Maskvina"/>
+    <property name="user.timezone" value="America/Bahia"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Yuliya_Maskvina"/>
+    <property name="java.class.path" value="D:\workspace\CarCode\carcode\carcode-rest-web\target\test-classes;D:\workspace\CarCode\carcode\carcode-rest-web\target\classes;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-api\0.0.1-SNAPSHOT\carcode-api-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-postgres\0.0.1-SNAPSHOT\carcode-postgres-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\mybatis\mybatis\3.1.1\mybatis-3.1.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\mybatis\mybatis-spring\1.2.0\mybatis-spring-1.2.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-service\0.0.1-SNAPSHOT\carcode-service-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\edmunds\carcode\carcode-rest\0.0.1-SNAPSHOT\carcode-rest-0.0.1-SNAPSHOT.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\sun\jersey\jersey-server\1.0\jersey-server-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\sun\jersey\jersey-core\1.0\jersey-core-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\javax\ws\rs\jsr311-api\1.0\jsr311-api-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-web\3.1.2.RELEASE\spring-web-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-beans\3.1.2.RELEASE\spring-beans-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-context\3.1.2.RELEASE\spring-context-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-aop\3.1.2.RELEASE\spring-aop-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-expression\3.1.2.RELEASE\spring-expression-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-asm\3.1.2.RELEASE\spring-asm-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-core\3.1.2.RELEASE\spring-core-3.1.2.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\sun\jersey\jersey-spring\1.0\jersey-spring-1.0.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\springframework\spring-webmvc\4.1.4.RELEASE\spring-webmvc-4.1.4.RELEASE.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\testng\testng\6.8.5\testng-6.8.5.jar;C:\Users\Yuliya_Maskvina\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Yuliya_Maskvina\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Yuliya_Maskvina\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_25\jre"/>
+    <property name="sun.java.command" value="C:\Users\YULIYA~1\AppData\Local\Temp\surefirebooter2252231994197689476.jar C:\Users\YULIYA~1\AppData\Local\Temp\surefire4624506450529854688tmp C:\Users\YULIYA~1\AppData\Local\Temp\surefire3224743438193087091tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="localRepository" value="C:\Users\Yuliya_Maskvina\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+</testsuite>

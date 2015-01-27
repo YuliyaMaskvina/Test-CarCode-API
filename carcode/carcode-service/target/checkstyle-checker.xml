@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+
+    <!--
+      All java package must have a package-level javadoc
+      Since it's documented in altconfluence, we'll allow package.html
+      CHECKSTYLE 5.0 CHECK ONLY, will have to wait until they release a new version
+
+    <module name="JavadocPackage">
+        <property name="severity" value="error"/>
+        <property name="allowLegacy" value="true"/>
+    </module>
+     -->
+
+    <module name="SuppressionCommentFilter"/>
+
+    <!-- CS 5.0+
+    <module name="SuppressWithNearbyCommentFilter">
+        <property name="commentFormat" value="CHECKSTYLE SUPPRESS LINES\: (\d+)"/>
+        <property name="influenceFormat" value="$1"/>
+    </module>
+    -->
+    <module name="FileLength">
+        <property name="severity" value="warning"/>
+        <property name="max" value="500"/>
+    </module>
+    <module name="FileLength">
+        <property name="severity" value="error"/>
+        <property name="max" value="2000"/>
+    </module>
+    <module name="FileTabCharacter">
+        <property name="severity" value="error"/>
+    </module>
+
+    <module name="TreeWalker">
+
+        <module name="FileContentsHolder"/>
+
+        <!--
+    Annotation checks per file...
+    N/A
+    -->
+
+        <!--
+        Block Checks per file...
+        Empty Blocks: Disallowed
+        Nested Blocks: Info... should be used lightly
+        Curly Braces: Left at eol, Right at start of line, Braces required
+        -->
+        <module name="EmptyBlock">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="LeftCurly">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="NeedBraces">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="RightCurly">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="AvoidNestedBlocks">
+            <property name="severity" value="info"/>
+        </module>
+
+        <!--
+        Class design checks:
+        Visibility: members must be private, or static final...
+        Final Class: No Restrictions
+        InterfaceIsType: Cannot use Interfaces just to declare static members
+        Utility Class Constructors: No Restrictions
+        Extension Design: No Restrictions
+        Mutables: No Restriction
+        No. of Throws: No Restriction
+        -->
+        <module name="VisibilityModifier">
+            <property name="packageAllowed" value="true"/>
+            <property name="protectedAllowed" value="true"/>
+            <property name="severity" value="error"/>
+        </module>
+        <module name="InterfaceIsType">
+            <property name="severity" value="error"/>
+            <property name="allowMarkerInterfaces" value="true"/>
+        </module>
+
+        <!--
+        Common Coding Error Checks:
+        Array Declaration: Avoid trailing comma, no restriction
+        Avoid Inline Conditionals: No restriction
+        Covarient Equals: No restriction
+        Double Checked Locking: Disallowed
+        Empty Statements: Disallowed
+        Equals Avoid Null: No restriction
+        Equals Hash Code: if equals() is overridden, then hashCode() must be too.
+        Final Local Variable: No restriction
+        Hidden Fields: Allowed in constructor and setter parameters
+        Instantiations: Cannot instantiate Boolean with 'new', otherwise, no restriction.
+        Tokens: No Restrictions
+        Token Text: No restrictions
+        Inner Assignment: Cannot make assignments in subexpressions
+        Magic Numbers: No restrictions
+        Missing Switch Default: Default cannot be missing in switch statements
+        Modified Control Variables: No restrictions
+        Redundant Throws: No restrictions
+        Simplify Boolean Expressions: Cannot have overly complex boolean expressions
+        Simplify Boolean Return: Cannot have overly complex boolean return statements
+        String Literal Equality: must use equals() when checking string literals
+        Nested If Depth: No restrictions
+        Nested Try Depth: No restrictions
+        Cloning: No restrictions
+        Finalizers: No restrictions
+        Cloning Superclass: No restrictions
+        Finalizing Superlcass: No restrictions
+        Catch Statements: No restrictions
+        Throws Statements: No restrictions
+        Package Declarations: No restrictions
+        JUnit: No restrictions
+        Return Counts: No restrictions
+        Illegal Types: No restrictions
+        Declaration Order: No restrictions
+        Parameter Assignments: No restrictions
+        Explicit Initializations: No restrictions
+        Default is Last: No restrictions
+        Constructors: No restrictions
+        Switch Fallthroughs: No restrictions
+        String Literals: No restrictions
+        Variable Declarations: No restrictions
+        Require 'this': No restrictions
+        Unnecessary Parentheses: No restrictions
+        -->
+        <module name="EmptyStatement">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="EqualsHashCode">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="HiddenField">
+            <property name="severity" value="error"/>
+            <property name="ignoreSetter" value="true"/>
+            <property name="ignoreConstructorParameter" value="true"/>
+        </module>
+        <module name="IllegalInstantiation">
+            <property name="severity" value="error"/>
+            <property name="classes" value="java.lang.Boolean"/>
+        </module>
+        <module name="InnerAssignment">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="MissingSwitchDefault">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="SimplifyBooleanExpression">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="SimplifyBooleanReturn">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="StringLiteralEquality">
+            <property name="severity" value="error"/>
+        </module>
+
+        <!--
+        Header Content...
+        No restrictions.
+        -->
+
+        <!--
+        File Imports:
+        Star Imports: Disallowed
+        Static Imports: No Restrictions
+        Illegal Imports: Cannot import sun.*
+        Redundant Imports: Disallowed
+        Unused Imports: Disallowed
+        Import Order: No Restrictions
+        Import Control: No Restrictions
+        -->
+        <module name="AvoidStarImport">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="IllegalImport">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="RedundantImport">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="UnusedImports">
+            <property name="severity" value="error"/>
+        </module>
+
+        <!--
+        JavaDoc checks per file...
+        Types: All Java Types must JavaDoc the header
+        Methods: Excluded from JavaDoc
+        Members: Excluded from JavaDoc
+        Format: If present, JavaDoc must be well-formed
+        Scope: public - only public methods are checked
+               (this is an analog for methods/variables on interfaces)
+        -->
+        <module name="JavadocType">
+            <property name="severity" value="error"/>
+            <property name="scope" value="public"/>
+            <property name="allowMissingParamTags" value="true"/>
+        </module>
+        <module name="JavadocVariable">
+            <property name="severity" value="ignore"/>
+            <property name="scope" value="public"/>
+        </module>
+        <module name="JavadocStyle">
+            <property name="severity" value="error"/>
+            <property name="scope" value="public"/>
+        </module>
+
+        <!--
+        Metric-Based Checks:
+        Boolean Expression Complexity: Can't have more than 5
+        Class Data Abstraction Coupling: No Restrictions
+        Class Fan Out Complexity: No Restrictions
+        Cyclomatic Complexity: No Restrictions
+        NPATH Complexity: No Restrictions
+        Complexity by NCSS: No restrictions
+        -->
+        <module name="BooleanExpressionComplexity">
+            <property name="severity" value="error"/>
+            <property name="max" value="5"/>
+        </module>
+
+        <!--
+        Miscallenous Checks:
+        New Line at EOF: No Restrictions
+        TODO Commenting: No Restrictions
+        Translations: No Restrictions
+        Main Method: No Restrictions
+        Upper L for Long Constants: Required
+        Array Type Style: Java Style (braces after type)
+        Final Parameters: No Restrictions
+        Descendant Tokens: No Restrictions
+        Indentation: Required (basic: 4 chars, brace offset: 0 chars, case offset: 4 chars)
+        Trailing Comments: No restrictions
+        -->
+        <module name="UpperEll">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="ArrayTypeStyle">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="Indentation">
+            <property name="severity" value="error"/>
+        </module>
+
+        <!--
+        Modifier Checks:
+        No Restrictions.
+        -->
+
+        <!--
+        Naming Conventions:
+        Require the use of the Sun Style Guide for the following elements:
+          Local Final Variables
+          Local Variables
+          Members
+          Methods
+          Packages
+          Parameters
+          Static Variables
+          Types
+        -->
+        <module name="LocalFinalVariableName">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="LocalVariableName">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="MemberName">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="MethodName">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="PackageName">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="ParameterName">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="StaticVariableName">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="TypeName">
+            <property name="severity" value="error"/>
+        </module>
+
+        <!--
+         Size Checks:
+         Executable Statement Count: No Restrictions
+         File Length: warning over 500, fail over 2000
+         Line Length: Cannot be longer than 160
+         Method Length: No Restrictions
+         Anon Inner Class Length: 20 lines
+         Number of Parameters: No Restrictions
+         Number of Outer Types: No Restrictions
+        -->
+        <module name="LineLength">
+            <property name="severity" value="warning"/>
+            <property name="max" value="120"/>
+        </module>
+        <module name="AnonInnerLength">
+            <property name="severity" value="error"/>
+        </module>
+
+        <!--
+        Whitespace Restrictions:
+        Generics: No Whitespace in Carets
+        Empty 'for' Initializer Padding: No restrictions
+        Empty 'for' Iterator Padding: No restrictions
+        Method Parameter Padding: No padding between name and paren
+        Whitespace after Tokens: Not allowed
+        Whitespace before Tokens: Not allowed
+        Operator Wrapping: No Restrictions
+        Parenthesis Padding: No padding on the inside of the parens
+        Typecast Parenthesis Padding: No padding on the inside of the parens
+        Tab Character: Must be spaces, not tabs.
+        -->
+        <!-- Disabled until we can use Checkstyle 5
+       <module name="GenericWhitespace">
+           <property name="severity" value="error"/>
+       </module>
+        -->
+        <module name="MethodParamPad">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="NoWhitespaceAfter">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="NoWhitespaceBefore">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="ParenPad">
+            <property name="severity" value="error"/>
+        </module>
+        <module name="TypecastParenPad">
+            <property name="severity" value="error"/>
+        </module>
+    </module>
+</module>

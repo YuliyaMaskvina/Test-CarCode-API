@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <artifactId>carcode</artifactId>
+    <groupId>com.edmunds.carcode</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  
+  <artifactId>carcode-rest-web</artifactId>
+  <packaging>war</packaging>
+  <name>CarCode REST Web Application</name>
+
+  <properties>
+  	<jetty.port>8080</jetty.port>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+    	<groupId>com.edmunds.carcode</groupId>
+        <artifactId>carcode-api</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.edmunds.carcode</groupId>
+        <artifactId>carcode-postgres</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.edmunds.carcode</groupId>
+        <artifactId>carcode-service</artifactId>
+    </dependency>
+	<dependency>
+    	<groupId>com.edmunds.carcode</groupId>
+        <artifactId>carcode-rest</artifactId>
+    </dependency>
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-web</artifactId>
+	</dependency>
+	<dependency>
+    	<groupId>com.sun.jersey</groupId>
+        <artifactId>jersey-spring</artifactId>
+        <exclusions>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-core</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-beans</artifactId>
+			</exclusion>
+			<exclusion>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+			</exclusion>
+        </exclusions>
+     </dependency>
+  </dependencies>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+
+		<plugins>
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<!-- version>6.1.26</version-->
+				<version>7.6.14</version>
+				<configuration>
+ 					<httpConnector> 
+ 						<port>${jetty.port}</port> 
+ 					</httpConnector> 
+				    <webApp>
+				      <contextPath>/carcode</contextPath>
+				    </webApp>
+					<stopKey>carcode.stop</stopKey>
+					<stopPort>9002</stopPort>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+				    <systemProperties>
+				      <java.awt.headless>true</java.awt.headless>
+				    </systemProperties>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
+</project>

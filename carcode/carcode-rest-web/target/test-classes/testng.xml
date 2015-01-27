@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="carcode-rest-web">
+  <test name="carcode-rest-web" verbose="10" annotations="JDK" time-out="500">
+  	<packages>
+    </packages>
+  </test>
+</suite>

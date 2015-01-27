@@ -1,0 +1,34 @@
+[TestRunner] Running the tests in 'carcode-postgres' with parallel mode:false
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@25048104 priority: 10
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test carcode-postgres on 0  classes,  included groups:[] excluded groups:[]
+===== Invoked methods
+=====
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\Carcode-Postgres\carcode-postgres.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\Carcode-Postgres\carcode-postgres.xml
+
+===============================================
+    carcode-postgres
+    Tests run: 0, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@30ab95aa: 1 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@7b41aa25: 6 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 2 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@277f4790: 27 ms
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\toc.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\carcode-postgres.properties
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\index.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\main.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\groups.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\classes.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\reporter-output.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\methods-not-run.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\Carcode-Postgres\testng.xml.html
+Creating D:\workspace\CarCode\carcode\carcode-postgres\target\surefire-reports\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@27360218: 13 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@49cbd382: 4 ms

@@ -1,0 +1,34 @@
+[TestRunner] Running the tests in 'carcode-rest-web' with parallel mode:false
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@2fe6a820 priority: 10
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test carcode-rest-web on 0  classes,  included groups:[] excluded groups:[]
+===== Invoked methods
+=====
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\carcode-rest-web\carcode-rest-web.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\carcode-rest-web\carcode-rest-web.xml
+
+===============================================
+    carcode-rest-web
+    Tests run: 0, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.XMLReporter@4349f65b: 6 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@55e610e3: 2 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6ff0ccc2: 1 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 1 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@736e788c: 23 ms
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\toc.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\carcode-rest-web.properties
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\index.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\main.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\groups.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\classes.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\reporter-output.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\methods-not-run.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\carcode-rest-web\testng.xml.html
+Creating D:\workspace\CarCode\carcode\carcode-rest-web\target\surefire-reports\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6520b476: 11 ms

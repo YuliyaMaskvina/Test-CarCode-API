@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Carcode-Postgres" duration-ms="3" started-at="2015-01-27T15:43:02Z" finished-at="2015-01-27T15:43:02Z">
+    <groups>
+    </groups>
+    <test name="carcode-postgres" duration-ms="3" started-at="2015-01-27T15:43:02Z" finished-at="2015-01-27T15:43:02Z">
+    </test> <!-- carcode-postgres -->
+  </suite> <!-- Carcode-Postgres -->
+</testng-results>

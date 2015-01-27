@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <parent>
+	<groupId>com.edmunds</groupId>
+	<artifactId>global-defaults</artifactId>
+	<version>4.3.0</version>
+  </parent>
+   
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.edmunds.carcode</groupId>
+  <artifactId>carcode</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>CarCode Parent</name>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>carcode-api</module>
+  	<module>carcode-postgres</module>
+    <module>carcode-service</module>
+    <module>carcode-rest</module>
+    <module>carcode-rest-web</module>
+  </modules>
+  
+  <properties>
+  	<postgres-driver-version>9.2-1003-jdbc4</postgres-driver-version>
+  	<spring.version>3.1.2.RELEASE</spring.version>
+  	<jersey-version>1.0</jersey-version>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+ <dependencyManagement>
+ 	<dependencies>
+  		<!-- Edmunds Dependencies -->
+		<dependency>
+			<groupId>com.edmunds.carcode</groupId>
+			<artifactId>carcode-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.edmunds.carcode</groupId>
+			<artifactId>carcode-postgres</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.edmunds.carcode</groupId>
+			<artifactId>carcode-rest</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.edmunds.carcode</groupId>
+			<artifactId>carcode-rest-web</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.edmunds.carcode</groupId>
+			<artifactId>carcode-service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgres-driver-version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+	    <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+	    <dependency>
+	        <groupId>com.sun.jersey</groupId>
+	        <artifactId>jersey-server</artifactId>
+	        <version>${jersey-version}</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.sun.jersey</groupId>
+	        <artifactId>jersey-spring</artifactId>
+	        <version>${jersey-version}</version>
+	    </dependency>
+	  	<dependency>
+			<groupId>com.sun.jersey</groupId>
+	        <artifactId>jersey-core</artifactId>
+	        <version>${jersey-version}</version>
+	    </dependency>
+  	</dependencies>
+  </dependencyManagement>
+  
+  <dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+       	    <artifactId>testng</artifactId>
+        	<scope>test</scope>
+        	<version>6.8.5</version>
+    	</dependency>
+  </dependencies>
+  
+</project>

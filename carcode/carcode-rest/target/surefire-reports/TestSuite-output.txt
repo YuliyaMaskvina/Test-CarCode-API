@@ -1,0 +1,39 @@
+[PackageUtils] Looking for test classes in the directory: D:\workspace\CarCode\carcode\carcode-rest\target\classes\com\edmunds\carcode\rest
+[PackageUtils] Looking for test classes in the directory: D:\workspace\CarCode\carcode\carcode-rest\target\classes\com\edmunds\carcode\rest\resources
+[PackageUtils] Found class PingdomService, seeing it if it's included or excluded
+[PackageUtils] ... Including class PingdomService
+[TestRunner] Running the tests in 'rest' with parallel mode:false
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@44655c8c priority: 10
+[TestNGClassFinder] SKIPPING CLASS class com.edmunds.carcode.rest.resources.PingdomService no TestNG annotations found
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test rest on 0  classes,  included groups:[] excluded groups:[]
+===== Invoked methods
+=====
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\carcode-rest\rest.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\carcode-rest\rest.xml
+
+===============================================
+    rest
+    Tests run: 0, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 1 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@5c64bc1e: 7 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@4946101f: 5 ms
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\toc.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\rest.properties
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\index.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\main.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\groups.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\classes.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\reporter-output.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\methods-not-run.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\carcode-rest\testng.xml.html
+Creating D:\workspace\CarCode\carcode\carcode-rest\target\surefire-reports\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@14f36a2e: 13 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@32b2ee9a: 25 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@de94f23: 0 ms

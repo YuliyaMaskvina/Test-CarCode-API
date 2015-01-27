@@ -1,0 +1,34 @@
+[TestRunner] Running the tests in 'service' with parallel mode:false
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@7caee177 priority: 10
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test service on 0  classes,  included groups:[] excluded groups:[]
+===== Invoked methods
+=====
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\carcode-service\service.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\carcode-service\service.xml
+
+===============================================
+    service
+    Tests run: 0, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.jq.Main@5c9b027d: 26 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@1f2e8e93: 10 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 1 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@4820ea4: 3 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@73f35106: 0 ms
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\toc.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\service.properties
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\index.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\main.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\groups.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\methods.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\methods-alphabetical.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\classes.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\reporter-output.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\methods-not-run.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\carcode-service\testng.xml.html
+Creating D:\workspace\CarCode\carcode\carcode-service\target\surefire-reports\old\index.html
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6b89c934: 10 ms
